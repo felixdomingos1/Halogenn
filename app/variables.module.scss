@@ -1,9 +1,26 @@
 $headerBackground: #313352;
 $headerWidth : 100%;
 $headerHeight : 500px;
+$activeLink : #F5643D;
+$colorsDefault : #FFFFFF;
+$fontFamily : 'DM', sans;
+
+
+$navUlDisplay : inline-flex;
+$navUlAlign : flex-start;
+$navUlGap:45px;  
 
 :export {
+   fFamily: $fontFamily;
    Background: $headerBackground;
    headerWidth:$headerWidth;
    headerHeight:$headerHeight;
+
+   
+   UlDisplay : $navUlDisplay;
+   UlAlign : $navUlAlign;
+   UlGap : $navUlGap;
+   UlLinks : $colorsDefault;
+
+
 }
