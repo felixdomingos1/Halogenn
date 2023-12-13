@@ -1,0 +1,9 @@
+$headerBackground: #313352;
+$headerWidth : 100%;
+$headerHeight : 500px;
+
+:export {
+   Background: $headerBackground;
+   headerWidth:$headerWidth;
+   headerHeight:$headerHeight;
+}
