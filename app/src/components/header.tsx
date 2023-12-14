@@ -1,7 +1,6 @@
 import variables from '../../variables.module.scss'
 import   "../../globals.css";
 
-
 export default function Header(){
    return(
       <>
@@ -39,7 +38,15 @@ export default function Header(){
                   </ul>
                </nav>
             </div>
-            <div className="orcamento" style={{padding:variables.paddingBtn, background:variables.bGBtn , borderRadius:variables.bRadiusBtn  ,display:variables.UlDisplay, alignItems:'center'}}>
+            <div className="orcamento" 
+            style={
+               {
+                  padding:variables.paddingBtn, 
+                  background:variables.bGBtn , 
+                  borderRadius:variables.bRadiusBtn,
+                  display:variables.UlDisplay, 
+                  alignItems:'center'
+               }}>
                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                   <g clip-path="url(#clip0_382_494)">
                      <path d="M13.3929 0.535713H1.60714C1.01541 0.535713 0.535713 1.01541 0.535713 1.60714V13.3929C0.535713 13.9846 1.01541 14.4643 1.60714 14.4643H13.3929C13.9846 14.4643 14.4643 13.9846 14.4643 13.3929V1.60714C14.4643 1.01541 13.9846 0.535713 13.3929 0.535713Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
