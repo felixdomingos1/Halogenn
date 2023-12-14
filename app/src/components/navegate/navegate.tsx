@@ -1,6 +1,5 @@
 import variables from '../../../variables.module.scss'
 import   "../../../globals.css";
-import { cursorTo } from 'readline';
 
 export default function Navegate(){
    return(
@@ -69,9 +68,7 @@ export default function Navegate(){
                }}>Orçamento</span>
             </div>
          </div>
-         <div className='hr'>
-            <hr />
-         </div>
+         
       </>
    )
 }
