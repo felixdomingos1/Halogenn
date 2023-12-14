@@ -7,7 +7,7 @@ export default function Header(){
       <>
          <div style={{color:variables.UlLinks, fontFamily:variables.fFamily, display:variables.UlDisplay, alignItems:'center', justifyContent:'space-evenly',marginTop:'68px', width:variables.headerWidth}}> 
             <div className="logo">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="160" height="35" viewBox="0 0 160 35" fill="none">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="130" height="25" viewBox="0 0 160 35" fill="none">
                   <path d="M5.8956 8.07551L7.94507 10.125L9.99453 8.07552L7.94506 6.02605L5.8956 8.07551Z" fill="#84C4EA"/>
                   <path d="M24.8106 8.07727L26.8601 10.1267L28.9096 8.07728L26.8601 6.02781L24.8106 8.07727Z" fill="#84C4EA"/>
                   <path d="M5.89743 27.0731L7.9469 29.1226L9.99636 27.0731L7.94689 25.0237L5.89743 27.0731Z" fill="#84C4EA"/>
@@ -29,7 +29,7 @@ export default function Header(){
             </div>
             <div className="nav">
                <nav >
-                  <ul style={{display:variables.UlDisplay, alignItems:variables.UlAlign, gap:variables.UlGap}}>
+                  <ul style={{fontSize:variables.fontSizeLink, display:variables.UlDisplay, alignItems:variables.UlAlign, gap:variables.UlGap}}>
                      <li>Início</li>
                      <li>Produtos</li>
                      <li>Laudos</li>
@@ -39,7 +39,7 @@ export default function Header(){
                   </ul>
                </nav>
             </div>
-            <div className="orcamento" style={{display:variables.UlDisplay, alignItems:'center'}}>
+            <div className="orcamento" style={{padding:variables.paddingBtn, background:variables.bGBtn , borderRadius:variables.bRadiusBtn  ,display:variables.UlDisplay, alignItems:'center'}}>
                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                   <g clip-path="url(#clip0_382_494)">
                      <path d="M13.3929 0.535713H1.60714C1.01541 0.535713 0.535713 1.01541 0.535713 1.60714V13.3929C0.535713 13.9846 1.01541 14.4643 1.60714 14.4643H13.3929C13.9846 14.4643 14.4643 13.9846 14.4643 13.3929V1.60714C14.4643 1.01541 13.9846 0.535713 13.3929 0.535713Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
@@ -54,7 +54,9 @@ export default function Header(){
                <span>Orçamento</span>
             </div>
          </div>
-         <hr />
+         <div className='hr'>
+            <hr />
+         </div>
       </>
    )
 }

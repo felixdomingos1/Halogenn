@@ -2,6 +2,7 @@ $headerBackground: #313352;
 $headerWidth : 100%;
 $headerHeight : 500px;
 $activeLink : #F5643D;
+$fontSizeLink : 15px;
 $colorsDefault : #FFFFFF;
 $fontFamily : 'DM', sans;
 
@@ -10,17 +11,28 @@ $navUlDisplay : inline-flex;
 $navUlAlign : flex-start;
 $navUlGap:45px;  
 
+
+$paddingBtnOrcamento :12px 18px ;
+$gapBtnOrcamento : 5px;
+$borderRadiusBtnOrcamento : 7px;
+$backGroundBtnOrcamento : rgba(255,255,255,0.09);
+
+
 :export {
    fFamily: $fontFamily;
    Background: $headerBackground;
    headerWidth:$headerWidth;
    headerHeight:$headerHeight;
+   fontSizeLink:$fontSizeLink;
 
-   
+
    UlDisplay : $navUlDisplay;
    UlAlign : $navUlAlign;
    UlGap : $navUlGap;
    UlLinks : $colorsDefault;
 
-
+   PaddingBtn : $paddingBtnOrcamento;
+   gapBtn : $gapBtnOrcamento;
+   bRadiusBtn : $borderRadiusBtnOrcamento;
+   bGBtn : $backGroundBtnOrcamento;
 }
