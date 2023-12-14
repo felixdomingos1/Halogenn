@@ -18,6 +18,7 @@ $borderRadiusBtnOrcamento : 7px;
 $backGroundBtnOrcamento : rgba(255,255,255,0.09);
 
 
+
 :export {
    fFamily: $fontFamily;
    Background: $headerBackground;
@@ -31,7 +32,7 @@ $backGroundBtnOrcamento : rgba(255,255,255,0.09);
    UlGap : $navUlGap;
    UlLinks : $colorsDefault;
 
-   PaddingBtn : $paddingBtnOrcamento;
+   paddingBtn : $paddingBtnOrcamento;
    gapBtn : $gapBtnOrcamento;
    bRadiusBtn : $borderRadiusBtnOrcamento;
    bGBtn : $backGroundBtnOrcamento;

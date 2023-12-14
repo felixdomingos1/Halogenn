@@ -1,7 +1,8 @@
-import variables from '../../variables.module.scss'
-import   "../../globals.css";
+import variables from '../../../variables.module.scss'
+import   "../../../globals.css";
+import { cursorTo } from 'readline';
 
-export default function Header(){
+export default function Navegate(){
    return(
       <>
          <div style={{color:variables.UlLinks, fontFamily:variables.fFamily, display:variables.UlDisplay, alignItems:'center', justifyContent:'space-evenly',marginTop:'68px', width:variables.headerWidth}}> 
@@ -26,7 +27,11 @@ export default function Header(){
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M107.567 11.6663C103.71 11.6663 100.513 14.8881 100.513 19.0358C100.513 23.1835 103.715 26.3241 107.567 26.3241C109.22 26.3241 110.671 25.6905 111.806 24.613V27.5315C111.806 28.2355 111.26 28.8203 110.557 28.869L102.351 29.4863L102.581 32.3074L111.009 31.6684C113.192 31.506 114.872 29.7029 114.872 27.5315V12.0345H112.002V13.6102C110.846 12.3973 109.318 11.6717 107.561 11.6717L107.567 11.6663ZM103.235 19.0358C103.235 16.231 105.194 14.2113 107.567 14.2113C109.482 14.2113 111.097 15.3484 112.008 16.9295V21.1476C111.151 22.6637 109.487 23.7845 107.567 23.7845C105.188 23.7845 103.235 21.8298 103.235 19.0358Z" fill="white"/>
                   </svg>
             </div>
-            <div className="nav">
+            <div className="nav" style={
+               {
+                  marginLeft:'-6rem'
+               }
+            }>
                <nav >
                   <ul style={{fontSize:variables.fontSizeLink, display:variables.UlDisplay, alignItems:variables.UlAlign, gap:variables.UlGap}}>
                      <li>Início</li>
@@ -45,7 +50,8 @@ export default function Header(){
                   background:variables.bGBtn , 
                   borderRadius:variables.bRadiusBtn,
                   display:variables.UlDisplay, 
-                  alignItems:'center'
+                  alignItems:'center',
+                  cursor:'pointer'
                }}>
                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                   <g clip-path="url(#clip0_382_494)">
@@ -58,7 +64,9 @@ export default function Header(){
                      </clipPath>
                   </defs>
                </svg>
-               <span>Orçamento</span>
+               <span style={{
+                  marginLeft:'6px'
+               }}>Orçamento</span>
             </div>
          </div>
          <div className='hr'>

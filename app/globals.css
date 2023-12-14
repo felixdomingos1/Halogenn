@@ -14,8 +14,16 @@
   align-items: center;
   justify-content: center;
 }
+ul li{
+  cursor: pointer;
+  transition: .5s ;
+}
+ul li:hover{
+  color: #F5643D;
+}
+
 .hr hr{
-  width: 85%;
+  width: 80%;
   height: 1px;
   background: #E0E0E0;
 
