@@ -1,5 +1,6 @@
 import variables from  '@/app/variables.module.scss'
 import Cards from '../cards/cards'
+import MiddlCards from '../cards/middleCard'
 
 export default function Banner() {
    // const data = [
@@ -16,18 +17,17 @@ export default function Banner() {
       <>
          <div className="banner" 
             style={{
-               background:variables.bannerBackground,
                width:'78%',
                height:'500px',
                position:'absolute',
-               top:'30%',
+               top:'13rem',
                left:'11%',
                marginBottom: '4rem',
                display:'flex'
             }}
          > 
          <Cards />
-         <Cards />
+         <MiddlCards />
          <Cards />
          </div>
       </>
