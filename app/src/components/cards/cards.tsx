@@ -6,10 +6,10 @@ export default function Cards ( ) {
       {
         width: 'calc(100%/3)',
         height:'100%',  
-        background:'#fff'
+        background:'#fff',
       }
       }>
-         
+      
       </div>
    )
 }

@@ -22,6 +22,7 @@ export default function Banner() {
                position:'absolute',
                top:'30%',
                left:'11%',
+               marginBottom: '4rem',
                display:'flex'
             }}
          > 
